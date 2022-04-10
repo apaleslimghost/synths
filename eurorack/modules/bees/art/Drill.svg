@@ -1,0 +1,40 @@
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" height="128.5mm" id="svg10626" version="1.1" viewBox="0 0 50.799999 128.5" width="50.799999mm" ns1:docname="bees.svg" ns2:version="1.1 (c4e8f9e, 2021-05-24)">
+  <ns0:defs id="defs10630" />
+  <ns1:namedview bordercolor="#eeeeee" borderopacity="1" id="namedview10628" pagecolor="#505050" showborder="false" showgrid="false" showguides="false" units="mm" ns2:current-layer="g10847" ns2:cx="21.251938" ns2:cy="237.83419" ns2:document-rotation="0" ns2:document-units="mm" ns2:pagecheckerboard="true" ns2:pageopacity="0.97647059" ns2:pageshadow="0" ns2:window-height="1003" ns2:window-maximized="0" ns2:window-width="1328" ns2:window-x="0" ns2:window-y="25" ns2:zoom="1.5998541" />
+  
+  <ns0:title id="title10525">Artboard</ns0:title>
+  <ns0:desc id="desc10527">Created with Sketch.</ns0:desc>
+  <ns0:metadata id="metadata10632">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>Artboard</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g id="g10847" style="display:inline" ns1:insensitive="true" ns2:groupmode="layer" ns2:label="Drill">
+    <ns0:ellipse cx="5.1196876" cy="16.485546" id="Oval" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="5.1196876" cy="31.556534" id="circle10582" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="6.1647916" cy="62.4785" id="circle10584" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="25.743959" cy="62.4785" id="circle10586" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="44.529377" cy="62.4785" id="circle10588" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="35.004375" cy="44.499077" id="circle10590" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="15.954374" cy="44.499077" id="circle10592" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="35.004375" cy="79.664711" id="circle10594" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="15.954374" cy="79.664711" id="circle10596" rx="3.254375" ry="3.2521605" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="15.173854" cy="22.831224" id="circle10598" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="25.492603" cy="16.485546" id="circle10600" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="35.546768" cy="16.485546" id="circle10602" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="45.86552" cy="22.831224" id="circle10604" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="35.546768" cy="31.556534" id="circle10606" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="25.492603" cy="31.556534" id="circle10608" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" />
+    <ns0:ellipse cx="-45.86552" cy="111.67073" id="circle10610" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-35.546772" cy="104.00304" id="circle10612" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-25.492603" cy="96.599747" id="circle10614" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-15.173854" cy="96.599747" id="circle10616" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-5.1196871" cy="104.00304" id="circle10618" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-15.173854" cy="111.67073" id="circle10620" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+    <ns0:ellipse cx="-25.492603" cy="111.67073" id="circle10622" rx="3.003021" ry="3.0009775" style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.264493" transform="scale(-1,1)" />
+  </ns0:g>
+</ns0:svg>

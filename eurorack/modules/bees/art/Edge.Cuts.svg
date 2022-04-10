@@ -1,0 +1,22 @@
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" height="128.5mm" id="svg10626" version="1.1" viewBox="0 0 50.799999 128.5" width="50.799999mm" ns1:docname="bees.svg" ns2:version="1.1 (c4e8f9e, 2021-05-24)">
+  <ns0:defs id="defs10630" />
+  <ns1:namedview bordercolor="#eeeeee" borderopacity="1" id="namedview10628" pagecolor="#505050" showborder="false" showgrid="false" showguides="false" units="mm" ns2:current-layer="g10847" ns2:cx="21.251938" ns2:cy="237.83419" ns2:document-rotation="0" ns2:document-units="mm" ns2:pagecheckerboard="true" ns2:pageopacity="0.97647059" ns2:pageshadow="0" ns2:window-height="1003" ns2:window-maximized="0" ns2:window-width="1328" ns2:window-x="0" ns2:window-y="25" ns2:zoom="1.5998541" />
+  
+  <ns0:title id="title10525">Artboard</ns0:title>
+  <ns0:desc id="desc10527">Created with Sketch.</ns0:desc>
+  <ns0:metadata id="metadata10632">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>Artboard</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g id="g10831" style="display:inline" ns1:insensitive="true" ns2:groupmode="layer" ns2:label="Edge.Cuts">
+    <ns0:path d="m 6.1251041,1.599641 h 3.2014583 c 0.8840586,0 1.6007296,0.7161832 1.6007296,1.5996399 v 0 c 0,0.8834567 -0.716671,1.5996399 -1.6007296,1.5996399 H 6.1251041 c -0.8840583,0 -1.6007292,-0.7161832 -1.6007292,-1.5996399 v 0 c 0,-0.8834567 0.7166709,-1.5996399 1.6007292,-1.5996399 z" id="Rectangle" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264493;stroke-opacity:1" />
+    <ns0:path d="M 6.0986457,123.70108 H 9.300104 c 0.884058,0 1.600729,0.71618 1.600729,1.59964 v 0 c 0,0.88346 -0.716671,1.59964 -1.600729,1.59964 H 6.0986457 c -0.8840582,0 -1.6007291,-0.71618 -1.6007291,-1.59964 v 0 c 0,-0.88346 0.7166709,-1.59964 1.6007291,-1.59964 z" id="path10533" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264493;stroke-opacity:1" />
+    <ns0:path d="m 41.685104,1.599641 h 3.201458 c 0.884057,0 1.600729,0.7161832 1.600729,1.5996399 v 0 c 0,0.8834567 -0.716672,1.5996399 -1.600729,1.5996399 h -3.201458 c -0.884058,0 -1.60073,-0.7161832 -1.60073,-1.5996399 v 0 c 0,-0.8834567 0.716672,-1.5996399 1.60073,-1.5996399 z" id="path10535" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264493;stroke-opacity:1" />
+    <ns0:path d="m 41.685104,123.70108 h 3.201458 c 0.884057,0 1.600729,0.71618 1.600729,1.59964 v 0 c 0,0.88346 -0.716672,1.59964 -1.600729,1.59964 h -3.201458 c -0.884058,0 -1.60073,-0.71618 -1.60073,-1.59964 v 0 c 0,-0.88346 0.716672,-1.59964 1.60073,-1.59964 z" id="path10537" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264493;stroke-opacity:1" />
+  </ns0:g>
+  </ns0:svg>
