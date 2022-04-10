@@ -1,4 +1,6 @@
-# ![Pale Slim Ghost Synthesisers](etc/Logo.png)
+<h1 align="center">
+<img alt="Pale Slim Ghost Synthesisers" src="etc/Logo.png" height="80">
+</h1>
 
 schematics, PCBs, designs and code for Pale Slim Ghost Synthesisers hardware
 
