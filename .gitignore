@@ -4,6 +4,7 @@ fp-info-cache
 *-bak
 *.zip
 exports
+\#auto_saved_files\#
 jlcpcb
 *.glb
 *.step
