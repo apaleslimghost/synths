@@ -2923,6 +2923,24 @@
     (pin "9" (uuid cbd2f4d8-65e9-42e5-bce6-74e33f013728))
   )
 
+  (symbol (lib_id "power:+3V3") (at 35.306 53.34 270) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 89197813-1f34-412e-b0f2-543175929a5d)
+    (property "Reference" "#PWR?" (id 0) (at 31.496 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (id 1) (at 38.608 53.3399 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 35.306 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 35.306 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ed76af2-530e-4991-a83c-c6ce6f511262))
+  )
+
   (symbol (lib_id "power:GND") (at 73.66 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 89930a18-9f31-452b-ac55-9900e8a0b912)
@@ -4087,6 +4105,9 @@
     )
     (path "/b1807a3f-ef1e-4544-aae3-8053570f7323"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/89197813-1f34-412e-b0f2-543175929a5d"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/f39590a6-380e-454f-af5a-71361c77cf95"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_5x4.5")
