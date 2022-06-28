@@ -4,6 +4,12 @@
 
 schematics, PCBs, designs and code for Pale Slim Ghost Synthesisers hardware
 
+## todo
+
+- [ ] generate build guides with [`pcbdraw populate`](https://github.com/yaqwsx/PcbDraw/blob/master/doc/populate.md)
+- [ ] publishing to github pages
+- [ ] makefiles with [`kikit`](https://github.com/yaqwsx/KiKit)
+
 ## licence
 
 unless otherwise specified:
