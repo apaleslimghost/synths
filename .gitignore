@@ -4,3 +4,8 @@ fp-info-cache
 *-bak
 *.zip
 exports
+jlcpcb
+*.glb
+*.step
+*.wrl
+*.bin
