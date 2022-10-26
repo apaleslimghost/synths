@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|60879999|133136001|60c7fec2-c4fb-4b6e-8f3b-028c31d0244e|a115f8da-4eb4-43c3-ad55-2747b69a9def",
+        "courtyards_overlap|71039999|133136001|c22652a6-5a32-4599-a80e-89273289b919|e5d6a604-82c6-49f7-94a3-62bdbcf81a68"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,7 +88,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -104,8 +107,8 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
