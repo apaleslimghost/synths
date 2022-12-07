@@ -1,10 +1,8 @@
-View this project on [CADLAB.io](https://cadlab.io/project/26113). 
-
 <h1 align="center">
 	<img alt="Pale Slim Ghost Synthesisers" src="etc/Logo.png" height="100">
 </h1>
 
-schematics, PCBs, designs and code for Pale Slim Ghost Synthesisers hardware
+schematics, PCBs, designs and code for Pale Slim Ghost Synthesisers hardware. these can be viewed on [CADLAB.io](https://cadlab.io/project/26113).
 
 ## todo
 
