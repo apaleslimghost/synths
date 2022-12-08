@@ -11,3 +11,4 @@ jlcpcb
 *.wrl
 *.bin
 _autosave-*
+*.csv
