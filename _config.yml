@@ -1,9 +1,9 @@
 exclude:
-  - *.kicad_pcb
-  - *.kicad_pro
-  - *.kicad_sch
-  - *.sketch
-  - *.kicad_mod
-  - *.ino
-  - *.dxf
-  - *.pretty
+  - '*.kicad_pcb'
+  - '*.kicad_pro'
+  - '*.kicad_sch'
+  - '*.sketch'
+  - '*.kicad_mod'
+  - '*.ino'
+  - '*.dxf'
+  - '*.pretty'
