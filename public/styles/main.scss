@@ -25,6 +25,8 @@ body {
 
 	color: #006C62;
 	background: #fffafe;
+
+	margin: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,9 +71,9 @@ article {
 
 		img:only-child {
 			float: left;
-			width: 66%;
+			width: calc(66.666% - 0.5rem);
 			height: auto;
-			margin-left: calc(-66% - 1rem);
+			margin-left: calc(-66.666% - 1rem);
 			margin-bottom: 1rem;
 		}
 	}
