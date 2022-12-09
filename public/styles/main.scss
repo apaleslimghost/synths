@@ -44,7 +44,6 @@ strong {
 article {
 	max-width: 1200px;
 	margin: 0 auto;
-	position: relative;
 
 	h1 {
 		clear: left;
@@ -65,11 +64,11 @@ article {
 		}
 
 		img:only-child {
-			position: absolute;
-			left: 0;
-			// right: calc(60% + 0.5rem);
 			float: left;
-			width: calc(40% - 0.5rem);
+			width: 66%;
+			height: auto;
+			margin-left: calc(-66% - 1rem);
+			margin-bottom: 1rem;
 		}
 	}
 }
