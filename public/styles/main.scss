@@ -1,7 +1,11 @@
+---
+---
+
 @font-face {
 	font-family: 'GT Flexa';
 	src: url('https://cdn.shopify.com/s/files/1/0650/6168/3443/files/GT_Flexa_VAR.woff2?v=8407292138455320399') format('woff2');
 	font-display: swap;
+	font-weight: 100 900;
 }
 
 @font-face {
@@ -12,10 +16,15 @@
 	font-variation-settings: "ital" 100;
 }
 
+* { box-sizing: border-box;}
+
 body {
 	font-family: 'GT Flexa', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
+
+	color: #006C62;
+	background: #fffafe;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +32,45 @@ h1, h2, h3, h4, h5, h6 {
 	font-variation-settings: "wdth" 150;
 }
 
+h1 {
+	font-size: 2.5em;
+	line-height: 1;
+}
+
 strong {
 	font-weight: 900;
+}
+
+article {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+
+	h1 {
+		clear: left;
+	}
+
+	@media (min-width: 40rem) {
+	> * {
+		padding-left: calc(40% + 0.5rem);
+	}
+
+	> ul, > ol {
+		padding-left: calc(40% + 2.5rem);
+	}
+
+	img:only-child {
+			position: absolute;
+			left: 0;
+			// right: calc(60% + 0.5rem);
+			float: left;
+			width: calc(40% - 0.5rem);
+			height: auto;
+		}
+
+	}
+
+	img {
+		max-width: 100%;
+	}
 }
