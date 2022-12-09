@@ -12,3 +12,5 @@ jlcpcb
 *.bin
 _autosave-*
 *.csv
+_site
+.jekyll-metadata

@@ -7,3 +7,5 @@ exclude:
   - '*.ino'
   - '*.dxf'
   - '*.pretty'
+domain: docs.paleslimghost.store
+url: https://docs.paleslimghost.store
