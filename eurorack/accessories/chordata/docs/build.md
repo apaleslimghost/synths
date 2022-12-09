@@ -4,7 +4,7 @@ permalink: /chordata/build
 
 # Get everything together
 
-![](https://via.placeholder.com/600)
+![photo of a Chordata PCB, a USB Type-C port, 2 18-pin headers and a 2x5-pin shrouded right-angle header, on a cork desk mat](/eurorack/accessories/chordata/docs/images/01-parts.jpeg)
 
 You should have:
 
