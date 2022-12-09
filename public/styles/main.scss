@@ -50,6 +50,11 @@ article {
 		clear: left;
 	}
 
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
 	@media (min-width: 40rem) {
 		> * {
 			padding-left: calc(40% + 0.5rem);
@@ -65,11 +70,6 @@ article {
 			// right: calc(60% + 0.5rem);
 			float: left;
 			width: calc(40% - 0.5rem);
-			height: auto;
 		}
-	}
-
-	img {
-		max-width: 100%;
 	}
 }
