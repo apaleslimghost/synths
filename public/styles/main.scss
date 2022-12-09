@@ -51,15 +51,15 @@ article {
 	}
 
 	@media (min-width: 40rem) {
-	> * {
-		padding-left: calc(40% + 0.5rem);
-	}
+		> * {
+			padding-left: calc(40% + 0.5rem);
+		}
 
-	> ul, > ol {
-		padding-left: calc(40% + 2.5rem);
-	}
+		> ul, > ol {
+			padding-left: calc(40% + 2.5rem);
+		}
 
-	img:only-child {
+		img:only-child {
 			position: absolute;
 			left: 0;
 			// right: calc(60% + 0.5rem);
@@ -67,7 +67,6 @@ article {
 			width: calc(40% - 0.5rem);
 			height: auto;
 		}
-
 	}
 
 	img {
