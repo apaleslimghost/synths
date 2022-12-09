@@ -9,3 +9,10 @@ exclude:
   - '*.pretty'
 domain: docs.paleslimghost.store
 url: https://docs.paleslimghost.store
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
