@@ -1,0 +1,25 @@
+---
+permalink: /
+---
+
+
+
+{% for page in site.pages %}
+	{% if page.title %}
+		<section>
+			<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+
+			{% assign img_parts = page.content | markdownify | split: "<img" %}
+			{% assign from_first_img = img_parts[1] %}
+			{% assign first_img_parts = from_first_img | split: "/>" %}
+			{% assign first_img = first_img_parts[0] | prepend: "<img" | append: "/>" %}
+
+			{% if img_parts.size > 1 %}
+				<p>{{ first_img }}</p>
+			{% endif %}
+
+
+			{{ page.description }}
+		</section>
+	{% endif %}
+{% endfor %}

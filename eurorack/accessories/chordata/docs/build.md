@@ -1,6 +1,7 @@
 ---
 permalink: /chordata/build
 title: Building a Chordata
+description: How to build a Chordata, the Eurorack microcontroller development board from Pale Slim Ghost Synthesisers.
 ---
 
 ## Get everything together

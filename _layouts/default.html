@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Pale Slim Ghost Synthesisers</title>
-		<link rel="stylesheet" href="/public/styles/main.css">
+		<link rel="stylesheet" href="/site/styles/main.css">
 		<link rel="icon" href="/etc/favicon.png">
 	</head>
 
@@ -23,7 +23,9 @@
 			</nav>
 		</header>
 		<article>
-			<h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+			{% if page.title %}
+				<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+			{% endif %}
 
 			{{ content }}
 		</article>
