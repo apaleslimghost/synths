@@ -39,7 +39,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 3em;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 2em;
 	line-height: 1;
 }
 
@@ -48,7 +53,7 @@ strong {
 }
 
 article, header {
-	max-width: 1200px;
+	max-width: 80rem;
 	margin: 0 auto;
 }
 
@@ -93,7 +98,7 @@ nav {
 }
 
 article {
-	h1 {
+	h2 {
 		clear: left;
 	}
 
@@ -105,7 +110,7 @@ article {
 		box-shadow: .1rem .2rem 1rem rgba(41, 8, 97, 0.1), 1rem 2rem 10rem rgba(41, 8, 97, 0.3);
 	}
 
-	@media (min-width: 40rem) {
+	@media (min-width: 60rem) {
 		> * {
 			padding-left: calc(40% + 0.5rem);
 		}
