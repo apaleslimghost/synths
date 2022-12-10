@@ -47,10 +47,52 @@ strong {
 	font-weight: 900;
 }
 
-article {
+article, header {
 	max-width: 1200px;
 	margin: 0 auto;
+}
 
+header {
+	display: flex;
+	column-gap: 4rem;
+	row-gap: 1rem;
+
+	@media (max-width: 40rem) {
+		flex-direction: column;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+a {
+	&:link, &:visited {
+		color: #00645a;
+		text-decoration: none;
+	}
+
+	&:hover, &active {
+		color: #00ae9c;
+		text-decoration: underline;
+	}
+}
+
+nav {
+	display: flex;
+
+	ul {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+article {
 	h1 {
 		clear: left;
 	}
