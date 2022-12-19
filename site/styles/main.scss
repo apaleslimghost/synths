@@ -30,6 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
 	hyphens: auto;
 	word-break: break-word;
 	overflow-wrap: break-word;
@@ -40,12 +41,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 3em;
-	line-height: 1;
 }
 
 h2 {
 	font-size: 2em;
-	line-height: 1;
+}
+
+h3 {
+	font-size: 1.6em;
 }
 
 strong {
