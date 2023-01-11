@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 3em;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 h2 {
@@ -77,18 +81,20 @@ header {
 
 a {
 	&:link, &:visited {
-		color: #00645a;
-		text-decoration: none;
+		color: inherit;
 	}
 
 	&:hover, &active {
 		color: #00ae9c;
-		text-decoration: underline;
 	}
 }
 
 nav {
 	display: flex;
+
+	a {
+		text-decoration: none;
+	}
 
 	ul {
 		display: flex;
@@ -101,11 +107,11 @@ nav {
 }
 
 article {
-	h2 {
+	h2, h3 {
 		clear: left;
 	}
 
-	img {
+	img, video {
 		max-width: 100%;
 		height: auto;
 
@@ -122,12 +128,24 @@ article {
 			padding-left: calc(40% + 2.5rem);
 		}
 
-		img:only-child {
+		img:only-child, video:only-child {
 			float: left;
 			width: calc(66.666% - 0.5rem);
 			height: auto;
 			margin-left: calc(-66.666% - 1rem);
-			margin-bottom: 1rem;
+			margin-bottom: 4rem;
+		}
+
+		h2 + p {
+			img:only-child, video:only-child {
+				margin-top: -4rem;
+			}
+		}
+
+		h3 + p {
+			img:only-child, video:only-child {
+				margin-top: -3.6rem;
+			}
 		}
 	}
 }
