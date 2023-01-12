@@ -27,7 +27,7 @@ You should have:
 
 <p><video controls loop src="/eurorack/accessories/chordata/docs/media/02-flux.webm"></video></p>
 
-Apply just enough flux to cover the USB port through-hole pins. We recommend a gel flux such as Chipquik SMD291NL.
+Apply just enough flux to cover the USB port through-hole pins. We recommend a gel flux such as [Chipquik SMD291NL](https://www.chipquik.com/datasheets/SMD291NL.pdf).
 
 ### Solder the pins
 
