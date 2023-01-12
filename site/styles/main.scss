@@ -16,6 +16,21 @@
 	font-variation-settings: "ital" 100;
 }
 
+@font-face {
+	font-family: 'GT Flexa Mono';
+	src: url('https://cdn.shopify.com/s/files/1/0650/6168/3443/files/GT_Flexa_Mono_VAR.woff2?v=1673511719') format('woff2');
+	font-display: swap;
+	font-weight: 100 900;
+}
+
+@font-face {
+	font-family: 'GT Flexa Mono';
+	src: url('https://cdn.shopify.com/s/files/1/0650/6168/3443/files/GT_Flexa_Mono_VAR.woff2?v=1673511719') format('woff2');
+	font-display: swap;
+	font-style: italic;
+	font-variation-settings: "ital" 100;
+}
+
 * { box-sizing: border-box;}
 
 body {
@@ -27,6 +42,10 @@ body {
 	background: #fffafe;
 
 	margin: 1rem;
+}
+
+code {
+	font-family: 'GT Flexa Mono', monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
