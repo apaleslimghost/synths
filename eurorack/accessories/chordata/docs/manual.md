@@ -1,5 +1,6 @@
 ---
 title: Using your Chordata
+description: User manual for Chordata including firmware flashing instructions and pinout.
 permalink: /chordata/manual
 ---
 
@@ -15,6 +16,8 @@ Connect the Chordata to Eurorack power, then via a USB cable to a computer. Pres
  - macOS "Ventura" 13.0 [cannot flash UF2 firmware](https://www.raspberrypi.com/news/the-ventura-problem/) via the Finder. You'll get an error saying `The operation can’t be completed because an unexpected error occurred (error code 100093)`. Upgrade to macOS 13.1, or flash the firmware by copying the `.uf2` file via the command line.
 
 ## Pinout
+
+![Chordata pinout](/eurorack/accessories/chordata/docs/media/pinout.svg)
 
 - Pins 1-16 and 21-34 are the standard RP2040 GPIO pins.
 - Pins 18, 19, and 35 are connected to GND.

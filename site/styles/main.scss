@@ -136,8 +136,10 @@ article {
 		max-width: 100%;
 		height: auto;
 
-		border-radius: 1rem;
-		box-shadow: .1rem .2rem 1rem rgba(41, 8, 97, 0.1), 1rem 2rem 10rem rgba(41, 8, 97, 0.3);
+		&:not([src$=".svg"]) {
+			border-radius: 1rem;
+			box-shadow: .1rem .2rem 1rem rgba(41, 8, 97, 0.1), 1rem 2rem 10rem rgba(41, 8, 97, 0.3);
+		}
 	}
 
 	@media (min-width: 60rem) {
