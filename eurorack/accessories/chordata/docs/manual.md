@@ -6,6 +6,8 @@ permalink: /chordata/manual
 
 ## Flashing firmware
 
+![A Chordata connected to both Eurorack power and USB](/eurorack/accessories/chordata/docs/media/09-flashing.jpeg)
+
 Chordata uses the same microcontroller as the Raspberry Pi Pico, the RP2040, and anything that can be installed on the Pico will work on Chordata. It uses the [UF2](https://github.com/microsoft/uf2) bootloader flashed by default on the RP2040. Firmware is distributed as files with the `.uf2` extension. You can also flash runtimes such as [CircuitPython](https://circuitpython.org/) or [KalumaJS](https://kalumajs.org/).
 
 Connect the Chordata to Eurorack power, then via a USB cable to a computer. Press the **boot** button. An external drive called `RPI-RP2` will appear. Drag the `.uf2` file you're flashing onto the external drive. After a couple of seconds, the drive will disconnect, and Chordata will restart, running the new firmware. It's safe to unplug the USB cable after it's restarted.
