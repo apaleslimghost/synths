@@ -12,6 +12,6 @@ Connect the Chordata to Eurorack power, then via a USB cable to a computer. Pres
 ### Troubleshooting
 
  - **The Chordata must be connected to Eurorack power to turn on and flash. It doesn't draw any power from the USB port.**
- - macOS 13 "Ventura" [currently cannot flash UF2 firmware](https://www.raspberrypi.com/news/the-ventura-problem/) via the Finder. You'll get an error saying `The operation can’t be completed because an unexpected error occurred (error code 100093)`. You can flash the firmware by copying the `.uf2` file via the command line.
+ - macOS "Ventura" 13.0 [cannot flash UF2 firmware](https://www.raspberrypi.com/news/the-ventura-problem/) via the Finder. You'll get an error saying `The operation can’t be completed because an unexpected error occurred (error code 100093)`. Upgrade to macOS 13.1, or flash the firmware by copying the `.uf2` file via the command line.
 
 ## Pinout
