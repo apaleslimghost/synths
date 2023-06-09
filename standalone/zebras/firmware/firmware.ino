@@ -24,11 +24,19 @@ void setup() {
 
 	leftPixels.begin();
 	leftPixels.clear();
-	leftPixels.fill(leftPixels.Color(0xCC, 0x00, 0xFF));
+	leftPixels.fill(leftPixels.Color(0x00, 0xFF, 0x00));
 	leftPixels.show();
 
 	rightPixels.begin();
 	rightPixels.clear();
+	rightPixels.show();
+
+	while(!touchSensor.requestRawData()) {
+		delay(100);
+	}
+
+	updateLogoLeds();
+
 	rightPixels.setPixelColor(5, rightPixels.Color(0x33, 0X33, 0xff));
 	rightPixels.show();
 }
@@ -57,9 +65,29 @@ void writeSliderLeds(int position) {
 	rightPixels.show();
 }
 
+uint32_t logoLedColor(float pos) {
+	int r = 0xff * (abs(pos - 0.5));
+	int g = 0;
+	int b = 0x77;
+
+	return Adafruit_NeoPixel::Color(r, g, b);
+}
+
+void updateLogoLeds() {
+	int time = millis();
+	int a = time % 13000;
+	int b = time % 7000;
+	float aPos = static_cast<float>(a) / 13000.0;
+	float bPos = static_cast<float>(b) / 7000.0;
+
+	leftPixels.setPixelColor(0, logoLedColor(aPos));
+	leftPixels.setPixelColor(1, logoLedColor(bPos));
+	leftPixels.show();
+}
+
 void loop() {
-	delay(100);
-	touchSensor.requestRawData();
+	delay(50);
+	updateLogoLeds();
 
 	unsigned n = 0;
 	// read all the data from the device into a local buffer
