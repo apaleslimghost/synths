@@ -969,24 +969,24 @@
           (name "GPIO15" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 10.668 -24.384 90) (length 2.54)
-          (name "+12V" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 1.27 1.27))))
-        )
         (pin power_in line (at -1.778 -24.384 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
+          (number "17" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 10.668 -24.384 90) (length 2.54)
+          (name "+12V" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -1.778 -24.384 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+        (pin power_out line (at 5.842 -24.384 90) (length 2.54)
+          (name "-12V" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at -16.764 16.764 0) (length 2.54)
           (name "GPIO1" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin power_out line (at 5.842 -24.384 90) (length 2.54)
-          (name "-12V" (effects (font (size 1.27 1.27))))
+        (pin power_in line (at -1.778 -24.384 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "20" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 17.272 -13.97 180) (length 2.54)
@@ -3604,30 +3604,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 267.335 97.536 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 06c296e9-7428-4099-ab6f-83005b790b3c)
-    (property "Reference" "H17" (at 263.779 96.2659 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MountingHole" (at 263.779 98.8059 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 267.335 97.536 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 267.335 97.536 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H17") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 180.34 309.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0705a7c2-4b40-4d4b-92e8-610c8ba2618c)
@@ -3649,30 +3625,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "C14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 266.827 72.263 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0946428d-13cb-4045-bcf1-56b2d8a5fc40)
-    (property "Reference" "H11" (at 266.827 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MountingHole" (at 266.827 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 266.827 72.263 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 266.827 72.263 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H11") (unit 1)
         )
       )
     )
@@ -3794,30 +3746,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 239.268 339.217 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0db1333b-88f0-43c1-bc91-e617d9d34de9)
-    (property "Reference" "H20" (at 242.697 337.9469 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 242.697 340.4869 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:eurorack panel mounting slot" (at 239.268 339.217 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 239.268 339.217 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H20") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:-12V") (at 73.66 347.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e90b090-e9d3-4d4a-9b6f-e0e7ab8bafae)
@@ -3903,30 +3831,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "#PWR048") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Pale Slim Ghost:Mousebite") (at 220.853 307.467 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0f53637b-cbb7-4e5c-8544-f4d4b9808cc9)
-    (property "Reference" "B1" (at 220.853 298.958 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Mousebite" (at 220.853 301.498 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Pale Slim Ghost:mousebite-2.54x5.08mm" (at 220.853 307.467 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 220.853 307.467 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "B1") (unit 1)
         )
       )
     )
@@ -4042,30 +3946,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 132.969 277.749 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 14878614-68f0-4a7d-b849-dacdf152bdcf)
-    (property "Reference" "H2" (at 135.89 276.4789 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 135.89 279.0189 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 132.969 277.749 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.969 277.749 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H2") (unit 1)
         )
       )
     )
@@ -4338,30 +4218,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 171.704 237.109 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1f53faac-9976-47c4-8b61-7656ec5315d6)
-    (property "Reference" "H10" (at 174.752 235.8389 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 174.752 238.3789 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 171.704 237.109 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 171.704 237.109 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 172.212 73.533 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f89b2b5-91e1-40ae-a52a-9fe581fbc995)
@@ -4491,30 +4347,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 172.212 218.186 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 27228d1d-71cd-4436-a3bf-b552482cd0eb)
-    (property "Reference" "H6" (at 175.26 216.9159 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 175.26 219.4559 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 172.212 218.186 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 172.212 218.186 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 195.072 76.073 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27b035bf-7794-4c3a-a9f7-23cb34576ef4)
@@ -4536,30 +4368,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "R6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 280.924 79.121 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 282d224c-e651-44eb-bfe1-a1da4ca0b6fb)
-    (property "Reference" "H14" (at 284.099 77.8509 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 284.099 80.3909 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 280.924 79.121 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 280.924 79.121 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H14") (unit 1)
         )
       )
     )
@@ -4662,30 +4470,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 171.45 227.584 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2c3aff84-11d2-4fdb-90a5-ab83779910a8)
-    (property "Reference" "H8" (at 174.498 226.3139 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 174.498 228.8539 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 171.45 227.584 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 171.45 227.584 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H8") (unit 1)
         )
       )
     )
@@ -5425,30 +5209,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 158.242 209.296 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4970f8e8-0b3c-4796-be16-d94f10b7bf90)
-    (property "Reference" "H3" (at 161.29 208.0259 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 161.29 210.5659 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 158.242 209.296 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.242 209.296 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+12V") (at 162.56 298.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d6fd34f-0634-4bc8-8903-a36b8ef3cb6e)
@@ -5494,30 +5254,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 158.75 227.076 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 51e81a74-6292-48f2-8931-7eb122497713)
-    (property "Reference" "H7" (at 161.798 225.8059 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 161.798 228.3459 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 158.75 227.076 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.75 227.076 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H7") (unit 1)
         )
       )
     )
@@ -5685,30 +5421,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 172.212 209.169 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5eac7307-b726-426f-8475-0592d3e64869)
-    (property "Reference" "H4" (at 175.26 207.8989 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 175.26 210.4389 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 172.212 209.169 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 172.212 209.169 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H4") (unit 1)
         )
       )
     )
@@ -6102,30 +5814,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "J10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 266.573 79.375 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 72ce49d5-3808-4cc5-8778-8bbd5e4675de)
-    (property "Reference" "H13" (at 263.779 78.1049 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MountingHole" (at 263.779 80.6449 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 266.573 79.375 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 266.573 79.375 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H13") (unit 1)
         )
       )
     )
@@ -6697,30 +6385,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 280.924 72.136 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8d68e8d2-93a1-4459-93e6-509c15e21448)
-    (property "Reference" "H12" (at 284.099 70.8659 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 284.099 73.4059 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 280.924 72.136 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 280.924 72.136 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H12") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 112.268 164.719 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f265bb7-0b8f-43e7-bfa7-c3d1a06d1aa1)
@@ -6742,30 +6406,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "R31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 158.115 237.617 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 90243a60-6738-48dc-9a12-3ef42544442f)
-    (property "Reference" "H9" (at 161.163 236.3469 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 161.163 238.8869 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 158.115 237.617 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.115 237.617 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H9") (unit 1)
         )
       )
     )
@@ -7513,30 +7153,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 158.496 218.821 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b5ddafde-6af6-4b73-ae7e-7a3ec0199cd1)
-    (property "Reference" "H5" (at 161.544 217.5509 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 161.544 220.0909 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 158.496 218.821 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.496 218.821 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+12V") (at 180.34 298.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b60a19e8-1997-424d-bc1e-e5119756fed4)
@@ -7677,30 +7293,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Pale Slim Ghost:Mousebite") (at 221.996 287.909 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bb6a6616-ee7b-4816-b706-9ea1c5a4e66d)
-    (property "Reference" "B2" (at 221.996 279.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Mousebite" (at 221.996 281.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Pale Slim Ghost:mousebite-2.54x5.08mm" (at 221.996 287.909 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 221.996 287.909 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "B2") (unit 1)
         )
       )
     )
@@ -7913,30 +7505,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 220.091 339.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c0ef9d26-9fd5-4bbb-9c46-30ba1c1c292d)
-    (property "Reference" "H19" (at 223.52 337.8199 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 223.52 340.3599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:eurorack panel mounting slot" (at 220.091 339.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 220.091 339.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H19") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 89.535 127.889 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0f0e723-d68a-422b-b6b7-f5f5ebdcde43)
@@ -7958,30 +7526,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "R20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 281.178 88.138 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c28bc171-58ac-41a6-8385-8b9d6b9e26cd)
-    (property "Reference" "H16" (at 284.099 86.8679 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 284.099 89.4079 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 281.178 88.138 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 281.178 88.138 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H16") (unit 1)
         )
       )
     )
@@ -8703,30 +8247,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 280.924 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e6e9f19b-3a93-4921-be3b-715dd4b52bca)
-    (property "Reference" "H18" (at 284.099 96.5199 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 284.099 99.0599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 280.924 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 280.924 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H18") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND1") (at 119.634 246.888 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7dedac7-7fff-4ef9-a52d-97cd940bb3ac)
@@ -8747,30 +8267,6 @@
       (project "spiders"
         (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
           (reference "#PWR082") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 267.208 88.265 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e8c2cd74-f554-41ec-aa69-1996247d55f0)
-    (property "Reference" "H15" (at 263.779 86.9949 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MountingHole" (at 263.779 89.5349 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Pale Slim Ghost:hole 6mm (jack panel)" (at 267.208 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 267.208 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "spiders"
-        (path "/e8869e02-c604-403f-b1d3-42ef57210c16"
-          (reference "H15") (unit 1)
         )
       )
     )
