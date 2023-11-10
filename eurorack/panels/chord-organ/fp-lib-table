@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "RadioMusic_Panel")(type "KiCad")(uri "$(KIPRJMOD)/RadioMusic_Panel.pretty")(options "")(descr ""))
-)
