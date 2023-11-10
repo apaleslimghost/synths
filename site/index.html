@@ -2,14 +2,14 @@
 permalink: /
 ---
 
+{% assign sections = site.pages | where_exp: "page", "page.name contains '.md'" | group_by_exp: "page", "page.path | split: '/' | reverse | slice: 2 | join: ''" %}
 
-
-{% for page in site.pages %}
-	{% if page.title %}
+{% for section in sections %}
+	{% if section.name != "" %}
 		<section>
-			<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+			<h2>{{ section.name | capitalize }}</h2>
 
-			{% assign img_parts = page.content | markdownify | split: "<img" %}
+			{% assign img_parts = section.items[0].content | markdownify | split: "<img" %}
 			{% assign from_first_img = img_parts[1] %}
 			{% assign first_img_parts = from_first_img | split: "/>" %}
 			{% assign first_img = first_img_parts[0] | prepend: "<img" | append: "/>" %}
@@ -18,8 +18,10 @@ permalink: /
 				<p>{{ first_img }}</p>
 			{% endif %}
 
-
-			{{ page.description }}
+			{% for page in section.items %}
+				<h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+				<p>{{ page.description }}</p>
+			{% endfor %}
 		</section>
 	{% endif %}
 {% endfor %}
