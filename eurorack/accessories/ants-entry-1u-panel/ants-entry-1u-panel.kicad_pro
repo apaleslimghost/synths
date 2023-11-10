@@ -441,8 +441,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../ants-entry-1u/ants-entry-1u-panel.step",
+      "vrml": "../ants-entry-1u/ants-entry-1u-panel.wrl"
     },
     "page_layout_descr_file": ""
   },

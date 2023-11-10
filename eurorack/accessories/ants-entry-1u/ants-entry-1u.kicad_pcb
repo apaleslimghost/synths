@@ -250,7 +250,7 @@
     (pad "2" thru_hole circle (at 2.54 0 270) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 4 "Net-(D1-A)") (pinfunction "A") (pintype "passive") (tstamp 4007e30f-58fc-4b6e-8265-d60a206e5346))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
-      (offset (xyz 0 0 0))
+      (offset (xyz 0 0 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -291,6 +291,11 @@
       (offset (xyz 0 0 10.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
+    )
+    (model "${KIPRJMOD}/ants-entry-1u-panel.wrl"
+      (offset (xyz -65.25 -142 11.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 

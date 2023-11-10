@@ -222,7 +222,7 @@
     (stroke (width 1.47) (type solid)) (fill solid) (layer "B.Cu") (tstamp 4983423d-1a90-4c68-b0e7-19d7e5e393a4))
   (gr_rect (start 147.701 63.21245) (end 147.9804 68.41945)
     (stroke (width 1.47) (type solid)) (fill solid) (layer "B.Cu") (tstamp 7ee2b8d9-ca7d-4a71-ab9a-1b5bb4fe5aee))
-  (gr_rect (start 153.282715 66.165038) (end 156.271041 65.403038)
+  (gr_rect (start 153.282715 65.403038) (end 156.271041 66.165038)
     (stroke (width 0.2) (type solid)) (fill solid) (layer "B.Cu") (tstamp f24ec22a-c2b2-4a60-93d3-f8d06fc080de))
   (gr_circle (center 154.80619 65.786) (end 153.79019 65.786)
     (stroke (width 0.2) (type solid)) (fill solid) (layer "B.Cu") (tstamp f376e261-030e-4c5e-b523-1b4319fcb6c8))
@@ -30311,13 +30311,6 @@
     (members
       810244b1-b7da-4789-b95d-36fc71cea835
       df190beb-eb83-452b-8ea2-37ec1975cfa5
-    )
-  )
-  (group "" (id e81b0787-a388-404e-a6cf-0d96c21f3603)
-    (members
-      128273fb-d67e-45fc-a077-70968ad1f538
-      86f70ee2-e759-4735-9338-5cc550f6bf85
-      f04d172b-a518-4951-ba81-3490e64c542a
     )
   )
   (group "" (id 98ead161-1611-490f-a489-745cd9ef4e29)
