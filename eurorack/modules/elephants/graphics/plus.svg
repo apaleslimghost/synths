@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plus</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-105.000000, -771.000000)" fill="#000000">
+            <path d="M117,771 C123.627417,771 129,776.372583 129,783 C129,789.627417 123.627417,795 117,795 L105,795 L105,771 Z M118.82,776.16 L114.364,776.16 L113.816,781.5 L109.024,781.5 L108.616,784.704 L114.556,784.704 C114.212,784.728 113.932,784.872 113.716,785.136 C113.5,785.4 113.372,785.708 113.332,786.06 L112.924,790.092 L117.368,790.092 L117.929,784.703 L122.756,784.704 L123.14,781.5 L118.262,781.5 L118.82,776.16 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
