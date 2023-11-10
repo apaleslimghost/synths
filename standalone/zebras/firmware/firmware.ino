@@ -21,7 +21,7 @@ void setup() {
 
   slider.setup(sliderPads, 4);
 
-  touchSensor.setMode(Trill::DIFF);
+  touchSensor.setMode(Trill::RAW);
   touchSensor.setPrescaler(4);
 
   leftPixels.begin();
