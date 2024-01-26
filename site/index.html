@@ -7,7 +7,7 @@ permalink: /
 {% for section in sections %}
 	{% if section.name != "" %}
 		<section>
-			<h2>{{ section.name | capitalize }}</h2>
+			<h2>{{ section.name | split: '-' | first | capitalize }}</h2>
 
 			{% assign img_parts = section.items[0].content | markdownify | split: "<img" %}
 			{% assign from_first_img = img_parts[1] %}
