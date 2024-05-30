@@ -1,3 +1,9 @@
+---
+title: Bill of Materials
+permalink: /ravens/bom
+description: Bill of Materials for Ravens, the Eurorack 1U 4×2 matrix mixer
+---
+
 | Reference | Component | Where to buy |
 |-|-|-|
 | J1 | 10×2 2.54mm pitch right angle pin header |  |
