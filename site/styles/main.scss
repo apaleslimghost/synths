@@ -150,20 +150,22 @@ article {
 	}
 
 	@media (min-width: 60rem) {
-		> * {
-			padding-left: calc(40% + 0.5rem);
-		}
-
-		> ul, > ol {
-			padding-left: calc(40% + 2.5rem);
-		}
-
-		img:only-child, video:only-child {
-			float: left;
-			width: calc(66.666% - 0.5rem);
-			height: auto;
-			margin-left: calc(-66.666% - 1rem);
-			margin-bottom: 4rem;
+		&:not(.fullwidth) {
+			> * {
+				padding-left: calc(40% + 0.5rem);
+			}
+	
+			> ul, > ol {
+				padding-left: calc(40% + 2.5rem);
+			}
+	
+			img:only-child, video:only-child {
+				float: left;
+				width: calc(66.666% - 0.5rem);
+				height: auto;
+				margin-left: calc(-66.666% - 1rem);
+				margin-bottom: 4rem;
+			}
 		}
 
 		h3 + p {
