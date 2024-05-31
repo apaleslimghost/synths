@@ -149,6 +149,16 @@ article {
 		}
 	}
 
+	table {
+		border-radius: 0.5rem;
+		border: 1px solid rgba(41, 8, 97, 0.3);
+		border-collapse: collapse;
+	}
+
+	td {
+		padding: 0.5rem;
+	}
+
 	@media (min-width: 60rem) {
 		&:not(.fullwidth) {
 			> * {
