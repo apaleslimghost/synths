@@ -150,15 +150,28 @@ article {
 	}
 
 	table {
-		border-radius: 0.5rem;
 		border: 1px solid rgba(41, 8, 97, 0.3);
 		border-spacing: 0;
 	}
 
 	td, th {
 		padding: 0.75rem;
-		border: 1px solid rgba(41, 8, 97, 0.3);
+
+		&:not(:last-child) {
+			border-right: 1px solid rgba(41, 8, 97, 0.3);
+		}
 	}
+
+	tbody tr:not(:last-child) td, th {
+		border-bottom: 1px solid rgba(41, 8, 97, 0.3);
+	}
+
+	table,
+	tr:last-child td:last-child,
+	tr:last-child td:first-child {
+		border-radius: 0.5rem;
+	}
+		
 
 	@media (min-width: 60rem) {
 		&:not(.fullwidth) {
