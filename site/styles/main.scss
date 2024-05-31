@@ -162,13 +162,18 @@ article {
 		}
 	}
 
+	th:not([align]) {
+		text-align: left;
+	}
+
 	tbody tr:not(:last-child) td, th {
 		border-bottom: 1px solid rgba(41, 8, 97, 0.3);
 	}
 
 	table,
 	tr:last-child td:last-child,
-	tr:last-child td:first-child {
+	tr:last-child td:first-child,
+	th:last-child {
 		border-radius: 0.5rem;
 	}
 		
