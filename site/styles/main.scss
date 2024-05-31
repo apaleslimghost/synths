@@ -172,9 +172,12 @@ article {
 
 	table,
 	tr:last-child td:last-child,
-	tr:last-child td:first-child,
 	th:last-child {
 		border-radius: 0.5rem;
+	}
+	
+	tr:last-child td:first-child {
+		border-bottom-left-radius: 0.5rem;
 	}
 		
 
