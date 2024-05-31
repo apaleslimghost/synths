@@ -26,6 +26,9 @@
 			</nav>
 		</header>
 		<article{% if page.fullwidth %} class="fullwidth"{% endif %}>
+			{% assign section = page.path | split: '/' | reverse | slice: 2 | join: '' | split: '-' | first | capitalize %}
+			<h2>{{ section }}</h2>
+			
 			{% if page.title %}
 				<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 			{% endif %}
