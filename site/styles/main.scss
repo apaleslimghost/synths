@@ -152,6 +152,7 @@ article {
 	table {
 		border: 1px solid rgba(41, 8, 97, 0.3);
 		border-spacing: 0;
+		border-radius: 0.5rem;
 	}
 
 	td, th {
@@ -170,10 +171,12 @@ article {
 		border-bottom: 1px solid rgba(41, 8, 97, 0.3);
 	}
 
-	table,
-	tr:last-child td:last-child,
+	tr:last-child td:last-child {
+		border-bottom-right-radius: 0.5rem;
+	}
+
 	th:last-child {
-		border-radius: 0.5rem;
+		border-top-right-radius: 0.5rem;
 	}
 	
 	tr:last-child td:first-child {
