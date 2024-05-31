@@ -1,0 +1,23 @@
+---
+layout: index
+---
+
+
+{% assign section = page.path | split: '/' | reverse | slice: 2 | join: '' %}
+{% assign section_pages = site.pages | where_exp: "page", "page.name contains '.md'" | where_exp: "page", "page.path | split: '/' | reverse | slice: 2 | join: '' == section" %}
+
+<section>
+  {% assign img_parts = section.items[0].content | markdownify | split: "<img" %}
+  {% assign from_first_img = img_parts[1] %}
+  {% assign first_img_parts = from_first_img | split: "/>" %}
+  {% assign first_img = first_img_parts[0] | prepend: "<img" | append: "/>" %}
+
+  {% if img_parts.size > 1 %}
+    <p>{{ first_img }}</p>
+  {% endif %}
+
+  {% for page in section.items %}
+    <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+    <p>{{ page.description }}</p>
+  {% endfor %}
+</section>
